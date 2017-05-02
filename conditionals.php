@@ -23,7 +23,7 @@ $b = 5;
 //   echo 'false';
 // }
 
-$num = '10';
+$num = 20;
 
 // if ($num >= 10 && $num <= 1000) {
 //   echo "Your number is within the range";
@@ -31,10 +31,15 @@ $num = '10';
 //   echo "Your number is NOT within the range";
 // }
 
-if ($num == 10 || is_string($num)) {
-  echo '10 or string';
-} else {
-  echo 'NOT 10 or string';
-}
+// if ($num == 10 || is_string($num)) {
+//   echo '10 or string';
+// } else {
+//   echo 'NOT 10 or string';
+// }
+
+$var1 = true && false;
+$var2 = true and false;
+
+var_dump($var1, $var2);
 
 ?>
